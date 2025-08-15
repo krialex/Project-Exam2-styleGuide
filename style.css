@@ -8,6 +8,7 @@ body {
 .sections {
     display: flex;
     gap: 50px;
+    align-items: baseline;
 }
 
 .secondary-font {
@@ -20,13 +21,42 @@ body {
 }
 
 .main-color {
-    border: 1px solid #6D3AF8;
     border-radius: 50%;
     padding: 20px;
     width: 50px;
-    background-color: #6D3AF8;
-    color: #FFF;
+    height: 50px;
     text-align: center;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.color1 {
+    background-color: #6D3AF8;
+    color: #FFF;
+}
+
+.color2 {
+    background-color: #4B45F2;
+    color: #FFF;
+}
+
+.color3 {
+    background-color: #4996FC;
+    color: #FFF;
+}
+
+.color4 {
+    background-color: #F53232;
+    color: #FFF;
+}
+
+.color5 {
+    background-color: #F8F9FF;
+    border: 1px solid grey;
+}
+
+.color6 {
+    background-color: #14BB08;
+    color: #FFF;
 }
