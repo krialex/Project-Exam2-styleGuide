@@ -4,41 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Project Exam2 Style guide</title>
 </head>
 <body>
-    <div>
-        <h1>Styles for Project exam 2</h1>
-    </div>
-    <h2>Colors</h2>
-    <div class="sections">
-        <div class="main-color color1">#6D3AF8</div>
-        <div class="main-color color2">#4B45F2</div>
-        <div class="main-color color3">#4996FC</div>
-        <div class="main-color color4">#F53232</div>
-        <div class="main-color color5">#F8F9FF</div>
-        <div class="main-color color6">#14BB08</div>
-    </div>
-    <hr>
-    <h2>Fonts</h2>
-    <div class="sections">
-        <div>primary font: <span class="primary-font">Inter</span></div>
-        <div>secondary font: <span class="secondary-font">Henny Penny</span></div>
-    </div>
-    <hr>
-    <h2>Buttons</h2>
-    <div class="sections">
-        <div>main button</div>
-        <div>secondary button</div>
-    </div>
-    <hr>
-    <h2>Cards of venues</h2>
-    <div class="sections">
-        <div>this is a card</div>
-    </div>
+    <header>
+        <h1>🎨 Holidaze Style Guide</h1>
+        <p>Design tokens and reusable UI elements</p>
+    </header>
+    <main>
+        <h2>Colors</h2>
+        <div class="sections">
+            <div class="main-color color1">#4F4FE5</div>
+            <div class="main-color color2">#0000A5</div>
+            <div class="main-color color3">#6B37F8</div>
+            <div class="main-color color4">#2563EB</div>
+            <div class="main-color color5">#F53232</div>
+            <div class="main-color color6">#22C55E</div>
+        </div>
+        <hr>
+        <h2>Fonts</h2>
+        <div class="sections">
+            <div class="fonts">
+                <div>
+                    <p>Primary font – for paragraphs and UI text:</p>
+                    <p class="primary-font">This is body text using Inter.</p>
+                </div>
+                <div>
+                    <p>Secondary font – for headings:</p>
+                    <p class="secondary-font">Henny Penny</p>
+                </div>
+            </div>
+
+        </div>
+        <hr>
+        <h2>Buttons</h2>
+        <div class="sections">
+            <div class="buttons">
+                <button>in header</button>
+                <button class="not-header">secondary button</button>
+            </div>
+        </div>
+        <hr>
+        <h2>Cards of venues</h2>
+        <p class="note">Hover over the card to see elevation and shadow.</p>
+        <div class="sections">
+            <div class="card">
+                <div><img src="./img/mckayla-crump-3OR-XFzKSBo-unsplash.jpg" /></div>
+                <div class="card-info">
+                    <h3>Title of venue</h3>
+                    <p>Short description of the venue. If it is to long it will become .......</p>
+                    <div class="down-info">
+                        <div class="rating">
+                            <div>4</div>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div>Breakfast included <span class="check"><i class="fa-solid fa-check"></i></span></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    
     
 </body>
+<script src="https://kit.fontawesome.com/ad221245c2.js" crossorigin="anonymous"></script>
 </html>
