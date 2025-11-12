@@ -26,6 +26,7 @@ header h1 {
     margin-bottom: 30px;
     background-color: #f9fafb;
     border-radius: 0.5rem;
+    justify-content: center;
 }
 
 .secondary-font {
@@ -166,4 +167,29 @@ button {
 
 .check {
     color: #22C55E;
+}
+
+.mobile {
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile img {
+    max-width: 300px;
+}
+
+.mobile-version {
+    display: flex;
+    gap: 2rem;
+}
+
+a {
+    text-decoration: none;
+    border: 1px solid #4F4FE5;
+    padding: .5rem 1rem;
+    border-radius: .25rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #4F4FE5;
+    color: #FFF;
 }
